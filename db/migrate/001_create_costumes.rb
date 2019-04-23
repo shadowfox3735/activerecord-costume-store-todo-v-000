@@ -6,8 +6,7 @@ def change
       t.integer :price
       t.integer :size
       t.text :imageurl
-      t.datetime :created_at
-      t.datetime :updated_at
+      t.timestamps
     end
   end
 
