@@ -1,5 +1,7 @@
 class CreateCostumeStores < ActiveRecord::Migration[5.1]
   def change
-    create
+    create_table costumestores do |t|
+      
+      
   end
 end
